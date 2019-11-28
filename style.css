@@ -1,0 +1,48 @@
+body{
+    max-width: 70%;
+    margin-right: auto;
+    background-color: #2d334a;
+    margin-left: auto;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    color:black;
+    background-color: #fbe3b9;
+}
+
+.fcoin{
+    padding: 3px 30px;
+    background-color: #0c9463;
+    color: #2d334a ;
+    display: flex;
+    justify-content: space-around;
+
+}
+strong{
+    font-size: 20px;
+}
+.fcoin>div{
+    display: flex;
+}
+
+#hard{
+    margin-left: 50px;
+}
+
+.container{
+    max-width: 50% ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.container>div{
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+    padding-bottom: 30%;
+    background-color: #fff;
+    margin: 10px;
+}
