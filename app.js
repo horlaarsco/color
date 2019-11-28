@@ -26,7 +26,6 @@ var colors = [
   "rgb(0, 0, 128)",
   "rgb(128, 128, 128)",
   "rgb(255, 255, 255)",
-  "rgb(0, 0, 0)"
 ];
 
 
@@ -36,7 +35,7 @@ var ctable = Array.from(document.querySelectorAll(".ctable"))
 var h1 = document.querySelector("h1");
 var rgb = document.getElementById("rgb");
 
-var arey = Array(27).fill().map(() => Math.round(Math.random() * 27))
+var arey = Array(27).fill().map(() => Math.round(Math.random() * 25))
 let unique = [...new Set(arey)];
 var randomColor = Math.floor(Math.random() * unique.length);
 var reset = document.querySelector(".fcoin>p");
@@ -67,7 +66,7 @@ ctable.forEach((item, index) => {
 });
 
 reset.addEventListener("click", function() {
-    var areyyy = Array(25).fill().map(() => Math.round(Math.random() * 25))
+    var areyyy = Array(25).fill().map(() => Math.round(Math.random() * 23))
     var uniquesss = [...new Set(areyyy)];
       ctable.forEach((item, index) => {
     
